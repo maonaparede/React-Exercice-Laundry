@@ -1,0 +1,52 @@
+:root{
+    --emAberto: hsl(48, 100%, 67%);
+    --cancelado: #FF0000;
+    --recolhido: #778899;
+    --aguardandoPagamento: #0000FF;
+    --pago: #FFA500;
+    --finalizado: #32CD32;
+}
+
+.titulo{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+
+.emAberto{
+    color: var(--emAberto) !important;
+    font-weight: bold;
+}
+
+.cancelado{
+    color:var(--cancelado) !important;
+    font-weight: bolder;
+}
+
+.recolhido{
+    color: var(--recolhido) !important;
+    font-weight: bolder;
+}
+
+.aguardandoPagamento{
+    color: var(--aguardandoPagamento) !important;
+    font-weight: bolder;
+}
+
+.pago{
+    color: var(--pago) !important;
+    font-weight: bolder;
+}
+
+.finalizado{
+    color: var(--finalizado) !important;
+    font-weight: bolder;
+}
+
+#label1{
+    font-size:85%;
+}
+
+#label2{
+    font-size:85%;
+}
